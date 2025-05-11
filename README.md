@@ -64,7 +64,7 @@ Welcome to the **Nuget_Packages**. Below is a list of custom-made packages.
 ---
 
 ### 9. **EPPlus** 📊  
-   - **Version**: 8.0.2  
+   - **Version**: 5.8.3  
    - **Description**:  
      A library for creating and managing **Excel** files in .NET. EPPlus allows you to generate and manipulate Excel files (.xlsx format) with ease, providing features like adding sheets, formatting, and more.
 
@@ -105,6 +105,27 @@ Welcome to the **Nuget_Packages**. Below is a list of custom-made packages.
 
 ---
 
+### 145 **Hangfire.AspNetCore** ⚙️  
+   - **Version**: 1.8.18
+   - **Description**:  
+     Enables Hangfire integration with ASP.NET Core. It provides middleware for the dashboard and server, making it easy to schedule and process background jobs within ASP.NET Core applications.
+
+---
+
+### 16. **Hangfire.Core** 🧠
+   - **Version**: 1.8.18
+   - **Description**:  
+     The core library of Hangfire, responsible for background job processing, job storage abstraction, and job creation APIs. It does not depend on any specific storage or framework.
+
+---
+
+### 17. **Hangfire.SqlServer** 🗄️
+   - **Version**: 1.8.18
+   - **Description**:  
+     Provides SQL Server support for Hangfire, allowing background jobs and other data to be persisted in Microsoft SQL Server databases. Offers features like distributed locking, queue support, and schema setup.
+
+---
+
 ## 📋 Summary of Versions
 
 Here are the versions of the installed packages:
@@ -117,12 +138,15 @@ Here are the versions of the installed packages:
 - **Microsoft.EntityFrameworkCore.Tools**: 8.0.0  
 - **Microsoft.AspNetCore.Authentication.JwtBearer**: 8.0.0  
 - **PdfSharpCore**: 1.3.65  
-- **EPPlus**: 8.0.2  
+- **EPPlus**: 5.8.3  
 - **System.Management**: 8.0.0  
 - **Twilio**: 7.8.2  
 - **AutoMapper**: 14.0.0  
 - **AWSSDK.Core**: 3.7.402.34  
-- **AWSSDK.S3**: 3.7.416.4  
+- **AWSSDK.S3**: 3.7.416.4
+- Hangfire.AspNetCore: 1.8.18
+- Hangfire.Core: 1.8.18
+- Hangfire.SqlServer: 1.8.18
 
 ---
 
@@ -131,4 +155,4 @@ Here are the versions of the installed packages:
 To add these packages to your project, you can use the following **NuGet** commands:
 
 ```bash
-dotnet add package Nuget_Packages --version 3.0.0
+dotnet add package Nuget_Packages --version 5.0.0
