@@ -105,7 +105,7 @@ Welcome to the **Nuget_Packages**. Below is a list of custom-made packages.
 
 ---
 
-### 145 **Hangfire.AspNetCore** ⚙️  
+### 15 **Hangfire.AspNetCore** ⚙️  
    - **Version**: 1.8.18
    - **Description**:  
      Enables Hangfire integration with ASP.NET Core. It provides middleware for the dashboard and server, making it easy to schedule and process background jobs within ASP.NET Core applications.
@@ -123,6 +123,13 @@ Welcome to the **Nuget_Packages**. Below is a list of custom-made packages.
    - **Version**: 1.8.18
    - **Description**:  
      Provides SQL Server support for Hangfire, allowing background jobs and other data to be persisted in Microsoft SQL Server databases. Offers features like distributed locking, queue support, and schema setup.
+
+---
+
+### 18. **Microsoft.Extensions.Caching.StackExchangeRedis** 🔴
+   - **Version**: 8.0.0
+   - **Description**:  
+     Provides Redis distributed caching support for .NET applications using the StackExchange.Redis client. Enables high-performance, scalable caching with Redis to improve application responsiveness and reduce database load. Supports features like cache expiration, sliding expiration, and distributed cache invalidation.
 
 ---
 
@@ -144,9 +151,10 @@ Here are the versions of the installed packages:
 - **AutoMapper**: 14.0.0  
 - **AWSSDK.Core**: 3.7.402.34  
 - **AWSSDK.S3**: 3.7.416.4
-- Hangfire.AspNetCore: 1.8.18
-- Hangfire.Core: 1.8.18
-- Hangfire.SqlServer: 1.8.18
+- **Hangfire.AspNetCore**: 1.8.18
+- **Hangfire.Core**: 1.8.18
+- **Hangfire.SqlServer**: 1.8.18
+- **Microsoft.Extensions.Caching.StackExchangeRedis**: 8.0.0
 
 ---
 
@@ -155,4 +163,4 @@ Here are the versions of the installed packages:
 To add these packages to your project, you can use the following **NuGet** commands:
 
 ```bash
-dotnet add package Nuget_Packages --version 5.0.0
+dotnet add package Nuget_Packages --version 6.0.0
